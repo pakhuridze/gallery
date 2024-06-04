@@ -26,3 +26,6 @@ class ExhibitionsViewSet(viewsets.ModelViewSet):
     queryset = Exhibition.objects.all()
     serializer_class = ExhibitionSerializer
     permission_classes = [isAdminOrReadOnly, IsAuthenticated]
+
+
+# add comm
